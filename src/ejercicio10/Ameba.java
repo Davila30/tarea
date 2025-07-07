@@ -1,7 +1,7 @@
 package ejercicio10;
 
-class Ameba {
-    int peso;
+public class Ameba {
+    private int peso;
 
     public Ameba() {
         this.peso = 3; // Peso inicial de la ameba
