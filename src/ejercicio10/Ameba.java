@@ -11,8 +11,8 @@ public class Ameba {
         this.peso += pesoComida - 1; // Incrementa el peso, restando
     }
     void come(Ameba a) {
-    this.peso += a.peso - 1;
-    a.peso = 0; // la ameba comida se queda sin sustancia
+        this.come(a.peso); // Incrementa el peso, restando 1
+        a.peso = 0; // la ameba comida se queda sin sustancia
     }
 
     @Override
